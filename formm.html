@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel</title>
+    <link rel="stylesheet" href="formm.css">
+</head>
+<body>
+    <div class="container">
+        <img class="im" src="image.png" alt="form">
+        <h1>Welcome to Travel</h1>
+
+         <?php
+         if($insert == true){
+            <p class="sub">Thanks for submitting your form</p>
+         }
+         ?>
+
+        <form id="myForm" action="index.php" method="POST">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information"></textarea>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="formm.js"></script>
+</body>
+</html>

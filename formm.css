@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+    
+}
+
+.container h1, .container p {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, textarea {
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;  /* Adjusted font-size to make it more suitable for forms */
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    display: flex;
+}
+
+.btn {
+    margin: 11px auto;
+    padding: 9px;
+    font-size: 16px;  /* Adjusted font-size to make it more suitable for forms */
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(52, 5, 5);
+    cursor: pointer;
+}
+
+.im {
+   width: 90%;
+   height: 98%;
+   position: absolute;
+   z-index: -1;
+   opacity: 0.6;
+
+}
+.sub {
+    color: rgb(102, 60, 6);
+}
+
+
+ /* INSERT INTO `trip` (`s.no.`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'textname', '23', 'female', '@dfg45', '44e444444', 'ddddd', current_timestamp()); */ */
+
+
